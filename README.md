@@ -1,9 +1,9 @@
-# Potential Contact finder
+# Potential Lead finder
 
-100line python script to extract google search results to filter out potential contacts using SEO
+100line Python script to extract Google search results to filter out potential leads using SEO
 
 ## Installation
-Just run the python script
+Just run the Python script
 - python3 googleSearchExtractor.py
 
 
