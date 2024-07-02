@@ -13,3 +13,6 @@ Just run the python script
 - Google Search Extractor
 - Automatic Links
 - Automatic export to Excel
+
+## Note
+Make sure you have already created the csv file
