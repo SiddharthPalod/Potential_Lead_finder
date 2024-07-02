@@ -1,5 +1,4 @@
-# Potential Lead finder
-
+Multi-Page Google Search Lead Finder
 100line Python script to extract Google search results to filter out potential leads using SEO
 
 ## Installation
