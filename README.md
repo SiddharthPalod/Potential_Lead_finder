@@ -1,5 +1,5 @@
 # Multi-Page Google Search Lead Finder
-100line Python script to extract Google search results to filter out potential leads using SEO
+Less than 100 lines Python script to extract Google search results to filter out potential leads using SEO
 
 ## Installation
 Just run the Python script
