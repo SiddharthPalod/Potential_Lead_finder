@@ -11,8 +11,16 @@ Just run the python script
 
 - Web Scraping
 - Google Search Extractor
-- Automatic Links
-- Automatic export to Excel
+- Multipage Scraping
+- CSV Export
+
+## Tech Stack
+
+- Python
+- BeautifulSoup
+- pandas
+- re
+- urllib.request
 
 ## Note
-Make sure you have already created the csv file
+Make sure you have already created the .csv file
