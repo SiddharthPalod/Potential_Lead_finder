@@ -12,6 +12,7 @@ Just run the Python script
 - Google Search Extractor
 - Multipage Scraping
 - CSV Export
+- Sorted Data (No duplicates)
 
 ## Tech Stack
 
