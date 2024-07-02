@@ -89,6 +89,7 @@ def main():
     pgNo = input()
 
     divs = scrape_google_results(site, role, location, pgNo) # All the search results in a div list
+    divs = (list)(set(divs))
     df = (data_table(divs))
     df['Hyperlink'] = df.apply(lambda x: f'=HYPERLINK("{x["Link"]}", "{x["Name"]}")', axis=1)
     df[['Hyperlink']].to_csv('google_search.csv', mode='a', header=False, index=False)
