@@ -2,6 +2,8 @@
 Less than 100 lines Python script to extract Google search results to filter out potential leads using SEO
 
 ## Installation
+Install dependancies
+- pip install pandas beautifulsoup4 urllib3
 Just run the Python script
 - python3 googleSearchExtractor.py
 
