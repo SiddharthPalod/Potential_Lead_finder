@@ -41,11 +41,8 @@ def scrape_google_results(site, role, location, pg = 1):
 def data_table(divs):
     product = []
     for div in divs:
-        # Search for a h3 tag
-        results = div.select("h3")
-        # Check if we have found a result
-        if len(results) >= 1:
-            # Print the title
+        results = div.select("h3")        # Search for a h3 tag
+        if len(results) >= 1:        # Check if we have found a result
             tempTitle = results[0].get_text()
             for link in div.find_all('a', href=True):
                 tempLink = link['href']
