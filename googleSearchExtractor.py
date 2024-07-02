@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import re
 import urllib.request
+
 # Fully Functional Google Search Extractor in less than 100lines of code
 def get_html(url):
     request = urllib.request.Request(url)    # Perform the request
@@ -65,7 +66,7 @@ def main():
     elif site == "3":
         site = "Instagram"
     else:
-        site = site
+        site = site.replace(" ", "+")
     print("Enter the role you want to search for: ")
     print("Options\t1: CEO\t2: CTO\t3: Marketer\t4: HR\t5:Software Engineer\t6: Developer\tOthers:Enter Role name")
     role = input()
@@ -78,14 +79,15 @@ def main():
     elif role == "4":
         role = "HR"
     elif role == "5":
-        role = "Software Engineer"
+        role = "Software+Engineer"
     elif role == "6":
         role = "Developer"
     else:
-        role = role
+        role = role.replace(" ", "+")
 
     print("Enter the location you want to search for: ")
     location = input()
+    location = location.replace(" ", "+")
     print("Enter no of pages you want to scrape (NOTE:High no has more chances of ban from google I recommend keep it less than 5): ")
     pgNo = input()
 
