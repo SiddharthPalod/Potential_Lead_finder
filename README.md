@@ -1,4 +1,5 @@
 # Multi-Page Google Search Lead Finder
+NOTE: Google changed there search results structure this is currently broken working on getting updated version
 Less than 100 lines Python script to extract Google search results to filter out potential leads using SEO
 
 ## Installation
