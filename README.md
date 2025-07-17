@@ -8,8 +8,7 @@ Less than 100 lines Python script to extract Google search results to filter out
 ### Just run the Python script
 - python3 googleSearchExtractor.py
 
-## Demo link
-https://youtu.be/tvT17MmvGs4
+## [Demo Video](https://youtu.be/tvT17MmvGs4)
 
 ## Features
 
